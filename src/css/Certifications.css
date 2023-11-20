@@ -1,0 +1,38 @@
+/* Certifications.css */
+
+.certifications-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .certifications-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .certifications-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .certifications-list li {
+    margin-bottom: 20px;
+  }
+  
+  .certifications-list h3 {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .certifications-list p {
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+  }
+  

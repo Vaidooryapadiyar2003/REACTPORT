@@ -1,0 +1,99 @@
+
+
+nav {
+  height:4rem;
+  
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top:0;
+  z-index: 3;
+}
+
+.hamburger-btn {
+  display: none; /* Initially hide the hamburger icon on larger screens */
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.logo {
+  object-fit: cover;
+  font-size: 60px; /* Adjust the font size to make the logo smaller */
+  color: #fff;
+  border-radius: 60%; /* Make the logo round-shaped */
+  overflow: hidden;
+  width: 60px; /* Set the width and height for the round shape */
+  height: 60px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire circular container */
+  border-radius: 50%;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul li {
+  margin-right: 20px;
+}
+.desktop :hover{
+  
+  color:red;
+
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+a.active {
+  font-weight: bold;
+}
+
+/* Media query for mobile responsiveness */
+
+  @media screen and (max-width: 768px) {
+   
+    .nav{
+      display:none;
+    }
+ 
+    
+  ul {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #050505;
+    display: none;
+  }
+
+  ul.show {
+    display: flex;
+  }
+
+  ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .hamburger-btn {
+    display: block; /* Display the hamburger icon on smaller screens */
+  }
+}
+
+  
+  

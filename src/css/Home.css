@@ -1,0 +1,103 @@
+.home {
+  height: calc(100vh - 4rem);
+  width: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  max-width: 100%;
+}
+
+.bg {
+  position: absolute;
+  top: 10rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  height:100%
+}
+
+.homeContent {
+  max-height: 6em;
+  width: 150%;
+  padding: 2%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content to the left */
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  overflow: visible;
+  text-align: left; /* Align text to the left */
+}
+
+.hello {
+  font-size: 1.5rem;
+  padding-bottom: -1rem;
+  font-weight: 100;
+  font-family:  'Dancing Script', cursive;
+}
+
+.homeName {
+  color: red;
+  font-size: 4rem;
+  font-family: 'Freestyle Script', serif;
+}
+.homeText{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+.homePara {
+  font-size: 1.3rem;
+  font-weight: 'HoloLens MDL2 Assets';
+  padding-top: -1rem;
+}
+
+.hire-me-button {
+  background-color: #4c86af;
+  color: white;
+  padding: 15px 20px;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.hire-me-button:hover {
+  background-color: #45a049;
+}
+
+@media  screen and(max-width:840px) {
+  .bg {
+    right: -10vw;
+  }
+  .homeContent {
+    font-size: smaller;
+    padding: 2%;
+  }
+  .hello {
+    font-size: 1.2rem; /* Adjusted for readability */
+    padding-bottom: 0.5em;
+  }
+  .homeName {
+    font-size: 2.0rem;
+  }
+  .homeText {
+    font-size: 1.5rem; /* Adjusted for readability */
+  }
+  body .homePara {
+    font-size: x-small !important;
+    padding-top: 0.5em;
+    line-height: 1.5; /* Adjusted for readability */
+    max-height: 4em; /* Allow the content to expand */
+    overflow: visible; /* Allow the content to overflow */
+  }
+  .hire-me-button {
+    font-size: 1.5rem;
+  }
+}
