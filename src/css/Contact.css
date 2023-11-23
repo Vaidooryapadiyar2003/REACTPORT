@@ -1,43 +1,90 @@
 /* Contact.css */
-
-.contact-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-  }
+.submitContainer {
+  display: flex;
+  align-items: center;
+}
+.contactDesc{
+  padding:1rem;
+  font-size: medium;
+  font-weight: 300;
+}
+.contactForm{
+  margin:1rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:90vw;
+  max-width: 60rem;
+}
   
-  .contact-container h2 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    margin-bottom: 10px;
-  }
-  
-  input,
-  textarea {
-    padding: 8px;
+  .name, .email, .msg{
+    font-size: medium;
+    width:50%;
+    max-width: 40rem;
+    margin:0.5rem;
+    padding:8px;
+    color:white;
+    border:none;
+    border-radius: 0.5rem;
+    background:  rgb(60, 60, 60);
+    width:15rem;
+    align-items: center;
+    justify-content: center;
+   
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
   }
-  
-  button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+  .submitBtn{
+    background: #fff;
     border: none;
-    border-radius: 4px;
+    width:10em;
+    height: 2.5em;
+    border-radius: 0.5rem;
+    margin:2rem;
+    
+    
+    
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+  }
+  .links{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+  }
+  .link{
+    object-fit: cover;
+    height:3rem;
+    width: 3rem;
+    margin:0 0.75rem;
+  }
+  .contactPageTitle{
+    font-size: 4rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: red;
+ 
+  font-family: 'Edwardian Script ITC';
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .loaderIcon{
+    height:1.5rem;
+    width:1.5rem;
+    margin-left: 1rem;
   }
   
+  
+ 
+ 

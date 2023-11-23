@@ -1,35 +1,38 @@
-/* About.css */
-
-/* About.css */
 
 .about-container {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
+  
+  
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
 
 .about-container h2 {
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 4rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: red;
+ 
+  font-family: 'Edwardian Script ITC';
 }
 
-.about-container p {
-  color: #555;
-  font-size: 16px;
+.about-container>p {
+  color: rgb(255, 255, 255);
+  width:fit-content;
+  font-size: 20px;
   line-height: 1.6;
-  margin-bottom: 20px;
+  text-align: center;
+  font-weight:500 ;
+  padding-top: 0;
+  padding-bottom: 1rem;
+ 
+  align-items: center;
+  justify-content: center;
+ 
+  
 }
 
-.photo {
-  width: 100%;
-  max-height: 300px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-top: 20px;
-}
 
   

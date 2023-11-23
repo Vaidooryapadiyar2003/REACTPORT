@@ -21,9 +21,7 @@ nav {
 
 .logo {
   object-fit: cover;
-  font-size: 60px; /* Adjust the font size to make the logo smaller */
-  color: #fff;
-  border-radius: 60%; /* Make the logo round-shaped */
+  
   overflow: hidden;
   width: 60px; /* Set the width and height for the round shape */
   height: 60px;

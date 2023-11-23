@@ -49,28 +49,28 @@ const Navbar = () => {
             </Link>
           </li>
         )}
-        {location.pathname === "/skills" ? (
+        {location.pathname === "/Skills" ? (
           " "
         ) : (
-          <li className="desktop" onclick={closeSidebar}>
-            <Link className="active" to="/skills">
+          <li className="desktop" onClick={closeSidebar}>
+            <Link className="active" to="/Skills">
               SKILLS
             </Link>
           </li>
         )}
-        {location.pathname === "/certification" ? (
+        {location.pathname === "/project" ? (
           " "
         ) : (
-          <li className="desktop" onclick={closeSidebar}>
-            <Link className="active" to="/certification">
-              CERTIFICATIONS
+          <li className="desktop" onClick={closeSidebar}>
+            <Link className="active" to="/project">
+              PROJECTS
             </Link>
           </li>
         )}
         {location.pathname === "/contact" ? (
           " "
         ) : (
-          <li className="desktop" onclick={closeSidebar}>
+          <li className="desktop" onClick={closeSidebar}>
             <Link className="active" to="/contact">
               CONTACT ME
             </Link>

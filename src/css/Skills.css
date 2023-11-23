@@ -1,28 +1,99 @@
-/* Skill.css */
+#skills{
+  overflow: hidden;
+  width:100vw;
+  max-width:65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin:0 auto;
+}
+.skillTitle{
+  font-size: 4rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: red;
+  
+ 
+  font-family: 'Edwardian Script ITC';
+}
+.skillDesc{
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 50rem;
+  padding:0 2rem;
+  padding-bottom: 2rem;
+}
+.skillBars{
+  
+  width:180vw;
+  max-width:100%;
+  text-align: left;
+}
+.skillBar{
+  display:flex;
+ margin:1rem;
+ padding-top: 1rem;
+ padding-left: 2rem;
+ padding-bottom: 1rem;
+  border-radius: 0.5rem;
+  background: rgb(60, 60, 60);
+  
+}
 
-.skill-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-  }
+.skillBarImg{
+  object-fit: cover;
+  height: 5rem;
+  width:5rem;
+  margin-left: 2rem;
+  padding-top: 1rem;
+  display: flex;
+}
+.skillBarText>p{
+  font-size: 1rem;
+  font-weight:200 ;
+  padding-top: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   
-  .skill-container h2 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
+}
+.skillBarText>h2{
+    padding-bottom: 0.5rem;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   
-  .skill-list {
-    list-style-type: none;
-    padding: 0;
-  }
   
-  .skill-list li {
-    color: #555;
-    font-size: 16px;
-    margin-bottom: 8px;
+}
+.skillBarText>h2:hover{
+  color:red;
+}
+@media screen and (max-width:720px){
+  .skillBarText>p{
+    font-size: 2vw;
   }
-  
+}
+  @media screen and (max-width:480px){
+    .skillBarText>p{
+      font-size: 4vw;
+    }
+    .skillBarImg{
+      height:2.25rem;
+      width:2.25rem;
+    }
+    .skillBarText>h2{
+      font-size: 5vw;
+
+    }
+    .skillBarImg{
+      object-fit: cover;
+      height: 5rem;
+      width:5rem;
+      margin-right: 2rem;
+      padding-top: 1rem;
+    }
+} 
